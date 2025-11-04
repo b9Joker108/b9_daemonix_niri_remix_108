@@ -1,3 +1,5 @@
+[![](https://img.youtube.com/vi/DeYx2exm04M/hqdefault.jpg)](https://youtu.be/DeYx2exm04M)
+
 # Annotate Chicane #
 
 https://github.com/DXC-0/daemonix-niri   Can you determine why he has self-forked or self-ported with a *-niri suffixation?

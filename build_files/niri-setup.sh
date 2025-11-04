@@ -388,3 +388,6 @@ cat << 'EOF' > /etc/wofi/style.css
   margin: 2px;
 }
 EOF
+
+sudo sed -i 's/^#\?\s*autologin-user=.*/autologin-user=alerion/' /etc/lightdm/lightdm.conf
+sudo sed -i 's/^#\?\s*autologin-session=.*/autologin-session=niri/' /etc/lightdm/lightdm.conf

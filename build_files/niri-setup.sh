@@ -389,6 +389,8 @@ cat << 'EOF' > /etc/wofi/style.css
 }
 EOF
 
+# Lightdm configuration
+
 cat << 'EOF' > /etc/lightdm/lightdm.conf
 [LightDM]
 start-default-seat=true

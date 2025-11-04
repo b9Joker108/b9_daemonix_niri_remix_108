@@ -3,7 +3,7 @@
 # Niri core components
 
 DESKTOP_ENV_PACKAGES=(
-  lightdm-gtk
+  gtkgreet
   wofi
   niri
   dunst

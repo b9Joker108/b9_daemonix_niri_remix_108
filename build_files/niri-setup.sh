@@ -391,7 +391,7 @@ EOF
 
 # Login manager
 
-cat << 'EOF' > /etc/greetd/config.toml
+cat << 'EOF' > /etc/lightdm/lightdm.conf
 #
 # General configuration
 #

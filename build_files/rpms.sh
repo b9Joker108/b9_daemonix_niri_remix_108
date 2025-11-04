@@ -10,10 +10,10 @@ DESKTOP_ENV_PACKAGES=(
   nautilus
   gvfs
   gvfs-smb
-  lightdm-gtk
 )
 
 dnf install -y "${DESKTOP_ENV_PACKAGES[@]}"
+dnf install -y --setopt=install_weak_deps=False gdm
 
 # Removed RPMS
 

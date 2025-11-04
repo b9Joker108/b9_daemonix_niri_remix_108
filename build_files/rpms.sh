@@ -11,6 +11,7 @@ DESKTOP_ENV_PACKAGES=(
   nautilus
   gvfs
   gvfs-smb
+  lxqt-policykit-agent
 )
 
 dnf install -y "${DESKTOP_ENV_PACKAGES[@]}"

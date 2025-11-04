@@ -10,9 +10,7 @@ DESKTOP_ENV_PACKAGES=(
   nautilus
   gvfs
   gvfs-smb
-  seatd
-  greetd
-  gtkgreet
+  lightdm-gtk
 )
 
 dnf install -y "${DESKTOP_ENV_PACKAGES[@]}"

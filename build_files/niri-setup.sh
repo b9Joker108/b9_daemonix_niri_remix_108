@@ -388,3 +388,11 @@ cat << 'EOF' > /etc/wofi/style.css
   margin: 2px;
 }
 EOF
+
+cat << 'EOF' > /etc/greetd/config.toml
+
+[default_session]
+command = "tuigreet --cmd niri"
+user = "greetd"
+EOF
+

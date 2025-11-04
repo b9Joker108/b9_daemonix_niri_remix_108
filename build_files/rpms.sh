@@ -3,6 +3,8 @@
 # Niri core components
 
 DESKTOP_ENV_PACKAGES=(
+  seatd
+  greatd
   gtkgreet
   wofi
   niri

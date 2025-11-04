@@ -5,7 +5,7 @@ COPY build_files/ /
 
 # Download Kinoite Upstream
 
-FROM ghcr.io/ublue-os/ublue-main:latest
+FROM ghcr.io/ublue-os/base-main:latest
 
 # OPT preparation
 

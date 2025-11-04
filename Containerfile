@@ -22,14 +22,12 @@ RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     install -m755 /ctx/rpms.sh /tmp/rpms.sh && \
     install -m755 /ctx/niri-setup.sh /tmp/niri-setup.sh  && \
     install -m755 /ctx/services.sh /tmp/services.sh && \
-    install -m755 /ctx/security.sh /tmp/security.sh && \
     install -m755 /ctx/custom.sh /tmp/custom.sh && \
 
     bash /tmp/repository.sh && \
     bash /tmp/rpms.sh && \
     bash /tmp/niri-setup.sh && \
     bash /tmp/services.sh && \
-    bash /tmp/security.sh && \
     bash /tmp/custom.sh
 
 # NVIDIA DRIVERS

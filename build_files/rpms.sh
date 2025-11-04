@@ -19,6 +19,7 @@ dnf install -y "${DESKTOP_ENV_PACKAGES[@]}"
 
 RM_PACKAGES=(
   waybar
+  alacritty
 )
 
 dnf remove -y "${RM_PACKAGES[@]}"

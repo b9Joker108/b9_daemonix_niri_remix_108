@@ -10,6 +10,8 @@ DESKTOP_ENV_PACKAGES=(
   nautilus
   gvfs
   gvfs-smb
+  greetd
+  tuigreet
 )
 
 dnf install -y "${DESKTOP_ENV_PACKAGES[@]}"

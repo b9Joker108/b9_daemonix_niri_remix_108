@@ -27,7 +27,40 @@ Citations:
 [1] GitHub - DXC-0/daemonix-niri https://github.com/DXC-0/daemonix-niri
 
 
+The "NIRI" tech stack referenced in modern open-source desktop projects (including anything styled as daemonix-niri) centers around the Niri Wayland compositor—a scrollable-tiling window manager for Linux. Here are the key elements:
 
+**Core Technologies:**
+- **Niri (Wayland compositor):** Written in Rust, offering an infinitely scrolling tiling layout for windows, optimized for productivity and ultrawide/multi-monitor use.
+- **Wayland Protocol:** Modern successor to X11 for graphical display management.
+- **KDL Configuration:** Uses KDL for flexible, human-readable config files.
+- **GLSL shaders:** For border/effect rendering.
+
+**Companion/Typical Stack Components:**
+- **Waybar:** Status bar for Wayland.
+- **Fuzzel:** Application launcher.
+- **Mako:** Notifications daemon.
+- **Alacritty:** Terminal emulator preferred for Wayland compositors.
+- **Swaybg, Swaylock, Swayidle:** For backgrounds, screen locking, and power management.
+- **xdg-desktop-portal:** For features like screenshots and screen sharing.
+- **Polkit, Secret Service:** Privilege escalation and key management facilitation.
+
+**Features/Philosophy:**
+- **Scrollable tiling:** Infinite horizontal workspace arrangement.
+- **Dynamic workspaces:** Per-monitor workspace "lanes".
+- **Touch/mouse gestures, live config reload, and configurable animations.**
+
+**Community/Ecosystem:**
+- Active on GitHub and included in several curated open-source lists, with a growing list of utilities for integration.
+
+References:
+- [NixOS Niri Wiki](https://wiki.nixos.org/wiki/Niri)
+- [ArchWiki Niri](https://wiki.archlinux.org/title/Niri)
+- [Awesome Niri](https://github.com/Vortriz/awesome-niri)
+- [Niri on ArcoLinuxD](https://www.arcolinuxd.com/niri/)
+- [LinuxLinks Niri Overview](https://www.linuxlinks.com/niri-scrollable-tiling-wayland-compositor/)
+
+---
+The stack is minimalist but extensible—centering on Niri as a Wayland compositor and integrating open-source utilities to provide a complete tiling desktop experience.
 
 
 

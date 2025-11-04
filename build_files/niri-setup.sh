@@ -392,9 +392,8 @@ EOF
 # Login manager
 
 cat << 'EOF' > /etc/greetd/config.toml
-
 [default_session]
-command = "tuigreet --cmd niri"
+command = "tuigreet --cmd niri-session"
 user = "greetd"
 EOF
 

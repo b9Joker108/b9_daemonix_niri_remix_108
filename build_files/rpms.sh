@@ -11,6 +11,7 @@ DESKTOP_ENV_PACKAGES=(
   gvfs
   gvfs-smb
   greetd
+  greetd-selinux
   tuigreet
 )
 

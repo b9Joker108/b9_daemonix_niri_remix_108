@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# Preparation
+
+mkdir -p /etc/niri/
+mkdir -p /etc/xdg/dunst/
+mkdir -p /etc/wofi/
 
 # Niri main configuration
 

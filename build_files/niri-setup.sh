@@ -156,7 +156,7 @@ binds {
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
     Mod+I { spawn "sh" "-c" "grim -g \"$(slurp)\" - | wl-copy --type image/png"; }
-    Mod+R { spawn "wofi" "--show" "drun"; }
+    Mod+R { spawn "wofi" "--show" "drun" "--conf" "/etc/wofi/config"; }
     Mod+T hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
     Mod+W { close-window; }
 
@@ -340,6 +340,7 @@ location=center
 key_expand=Tab
 insensitive=false
 single_click=true
+style=style=/etc/wofi/style.css
 EOF
 
 # Wofi style
